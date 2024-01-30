@@ -312,7 +312,6 @@ body {
 }
 
 .latest-products .product {
-    max-width: 240px;
     min-height: 300px;
     background-color: white;
     border-top-left-radius: 20px;
@@ -412,7 +411,7 @@ h5 {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 856px) {
     .latest-product-wrapper {
-        width: 33%;
+        width: calc(100%/3);
     }
 }
 
@@ -421,6 +420,7 @@ h5 {
 @media (max-width: 768px) {
     .latest-product-wrapper {
         width: 50%;
+        padding: 20px;
     }
 }
 
@@ -428,6 +428,7 @@ h5 {
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
     .latest-product-wrapper {
-        width: 100%;
+        padding: 20px 10px;
+
     }
 }
