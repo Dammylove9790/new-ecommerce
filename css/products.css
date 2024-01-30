@@ -100,7 +100,7 @@ ul {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 856px) {
     .product-page-wrapper {
-        width: 33%;
+        width: calc(100%/3);
     }
 }
 
@@ -109,15 +109,39 @@ ul {
 @media (max-width: 768px) {
     .product-page-wrapper {
         width: 50%;
+        padding: 20px;
     }
+
+    .all-products-page-container {
+        display: block;
+    }
+    
+    
+    .products-category-filter, 
+    .all-product-wrapper {
+        width: 100%;
+        padding: 10px 30px 30px ;
+    }
+    
+    .products-category-filter p {
+    /* font-size: 15px;
+    font-weight: 500; */
+    }
+
+    .container-title.all-products-title {
+        color: #0e1b4d;
+        font-weight: 700;
+        font-size: 50px;
+    }
+        
+
 }
 
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
     .product-page-wrapper {
-        width: 100%;
+        padding: 20px 10px;
+
     }
 }
-
-
