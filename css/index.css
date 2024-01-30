@@ -2,6 +2,7 @@ body {
     background-color: #eff0f5;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* body {
@@ -129,7 +130,7 @@ body {
     z-index: 1000;
 }
 
-.cart_item_minus,
+/* .cart_item_minus,
 .cart_item_plus {
     background-color: rgb(0, 146, 0);
     color: white;
@@ -141,7 +142,7 @@ body {
 
 #cart_item_number {
     width: 60px;
-}
+} */
 
 #footer-section h2,
 #footer-section h4,
@@ -166,146 +167,6 @@ body {
     color: red;
     text-decoration: underline;
 }
-
-
-.container-fluid.page-content {
-    max-width: 80rem;
-}
-
-.container-title {
-    height: 100px;
-    width: 100%;
-    margin: 40px 0 0;
-}
-
-.container-title.available-products-title,
-.container-title.latest-products-title {
-    color: #0e1b4d;
-    font-weight: 700;
-    font-size: 50px;
-}
-
-.container-title.random-products-title {
-    color: darkorange;
-    font-weight: 700;
-    font-size: 50px;
-}
-
-.available-product-wrapper {
-    margin-bottom: 50px;
-}
-
-.random-product-wrapper {
-    background-color: black;
-    color: white;
-    padding-bottom: 50px;
-}
-
-.latest-product-wrapper {
-    margin-bottom: 50px;
-}
-
-.available-products,
-.random-products,
-.latest-products {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.product-page-wrapper {
-    width: 20%;
-    padding: 20px 10px;
-}
-
-.product-wrapper .product {
-    min-height: 300px;
-    background-color: white;
-    border-radius: 30px;
-    outline: 15px solid white;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    /* align-content: baseline; */
-}
-
-.latest-products .product {
-    max-width: 240px;
-    min-height: 300px;
-    background-color: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    overflow: hidden;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    /* align-content: baseline; */
-}
-
-.product:hover {
-    cursor: pointer;
-}
-
-.product>img {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.product:hover>img {
-    filter: drop-shadow(0 2px 6px rgb(82, 3, 3));
-    transform: scale(1.05);
-}
-
-.product a {
-    text-decoration: none;
-    color: currentColor;
-}
-
-h5 {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    text-transform: capitalize;
-    font-weight: 500;
-}
-
-.product .product-info,
-.product .product-button {
-    padding: 0 15px 15px;
-}
-
-.product .product-button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: auto;
-}
-
-.product .product-button a {
-    display: block;
-    padding: 3px 5px;
-    border-radius: 5px;
-    color: white;
-    margin-bottom: 10px;
-}
-
-.product .product-button a:first-child {
-    background-color: green;
-}
-
-.product .product-button a:last-child {
-    background-color: darkorange;
-}
-
-.product .product-button a:hover {
-    background-color: black;
-    color: darkorange;
-    font-weight: bolder;
-}
-
-
-
-
 
 .main-card {
     height: 350px !important;
@@ -377,4 +238,196 @@ h5 {
 
 .main-card:hover .card-body {
     background: black;
+}
+
+
+
+
+
+.latest-product-container {
+    margin-bottom: 50px;
+}
+
+.available-product-container {
+    margin-bottom: 50px;
+}
+
+.random-product-container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+.page-content {
+    max-width: 80rem;
+    border: 2px solid red;
+}
+
+.container-title {
+    height: 100px;
+    width: 100%;
+    margin: 40px 0 0;
+    border: 2px solid;
+}
+
+.container-title.available-products-title,
+.container-title.latest-products-title {
+    color: #0e1b4d;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.container-title.random-products-title {
+    color: darkorange;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.latest-products,
+.available-products,
+.random-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.latest-product-wrapper {
+    width: calc(100% / 6);
+    padding: 20px 10px;
+
+}
+
+
+.product-wrapper .product {
+    min-height: 300px;
+    background-color: white;
+    border-radius: 30px;
+    outline: 15px solid white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-content: baseline; */
+}
+
+.latest-products .product {
+    max-width: 240px;
+    min-height: 300px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-content: baseline; */
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+.product>img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product:hover>img {
+    filter: drop-shadow(0 2px 6px rgb(82, 3, 3));
+    transform: scale(1.05);
+}
+
+.product a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+h5 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.product .product-info,
+.product .product-button {
+    padding: 0 15px 15px;
+}
+
+.product .product-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.product .product-button a {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.product .product-button a:first-child {
+    background-color: green;
+}
+
+.product .product-button a:last-child {
+    background-color: darkorange;
+}
+
+.product .product-button a:hover {
+    background-color: black;
+    color: darkorange;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1400px) {
+
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+    .latest-product-wrapper {
+        width: 25%;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 856px) {
+    .latest-product-wrapper {
+        width: 33%;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    .latest-product-wrapper {
+        width: 50%;
+    }
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    .latest-product-wrapper {
+        width: 100%;
+    }
 }
