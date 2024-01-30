@@ -412,6 +412,9 @@ h5 {
     .latest-product-wrapper {
         width: calc(100%/3);
     }
+    #slogan {
+        margin-top: 40px;
+    }
 }
 
 
@@ -421,6 +424,7 @@ h5 {
         width: 50%;
         padding: 20px;
     }
+
 }
 
 
@@ -428,6 +432,13 @@ h5 {
 @media (max-width: 576px) {
     .latest-product-wrapper {
         padding: 20px 10px;
-
     }
+
+    #slogan {
+        margin-top: 70px;
+        font-size: 80px;
+        font-weight: bold;
+        line-height: ;
+    }
+    
 }
