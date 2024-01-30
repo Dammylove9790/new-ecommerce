@@ -1,0 +1,380 @@
+body {
+    background-color: #eff0f5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* body {
+    font-style: normal;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75;
+    background-color: #eff0f5;
+} */
+
+#main_nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header {
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../image/eshopbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#header>.row {
+    width: 100%;
+}
+
+#slogan {
+    font-family: 'Tangerine', serif;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 4px 5px 2px darkorange;
+    transform: rotate(-15deg);
+    text-align: center;
+}
+
+.navbar.navbar-expand-lg .container-fluid>a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#navbarSupportedContent ul i {
+    color: darkorange;
+}
+
+#navbarSupportedContent .navbar-nav.main li a {
+    padding: 20px 15px;
+}
+
+#navbarSupportedContent .navbar-nav.main li a:hover {
+    background-color: rgb(26, 25, 25);
+    color: darkorange;
+}
+
+#navbarSupportedContent .navbar-nav.main li a.active {
+    background-color: black;
+    color: red;
+}
+
+#navbarSupportedContent .navbar-nav.sub-main li:hover a {
+    color: rgb(0, 89, 255);
+}
+
+#navbarSupportedContent .navbar-nav.main li a.active {
+    color: rgb(55, 0, 255);
+}
+
+#navbarSupportedContent .my_cart a {
+    position: relative;
+}
+
+#navbarSupportedContent .my_cart a h5 {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#navbarSupportedContent .my_cart:hover,
+#navbarSupportedContent .my_cart a:hover {
+    color: white !important;
+}
+
+.product-lookup {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#search_input {
+    border: 5px solid orange;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+#search_input:focus {
+    outline: none;
+    box-shadow: 15px 8px 20px 5px black;
+}
+
+
+
+
+
+
+
+#message_box_div {
+    position: sticky;
+    top: 80px;
+    right: 0;
+    /* width: 100%; */
+    z-index: 1000;
+}
+
+.cart_item_minus,
+.cart_item_plus {
+    background-color: rgb(0, 146, 0);
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    width: 30px;
+    cursor: pointer;
+}
+
+#cart_item_number {
+    width: 60px;
+}
+
+#footer-section h2,
+#footer-section h4,
+#footer-section small {
+    color: darkorange;
+}
+
+
+
+
+
+
+
+
+.slide-container {
+    width: 95%;
+}
+
+.slide-container .mega-sale {
+    font-weight: 900;
+    font-size: 30px;
+    color: red;
+    text-decoration: underline;
+}
+
+
+.container-fluid.page-content {
+    max-width: 80rem;
+}
+
+.container-title {
+    height: 100px;
+    width: 100%;
+    margin: 40px 0 0;
+}
+
+.container-title.available-products-title,
+.container-title.latest-products-title {
+    color: #0e1b4d;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.container-title.random-products-title {
+    color: darkorange;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.available-product-wrapper {
+    margin-bottom: 50px;
+}
+
+.random-product-wrapper {
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.latest-product-wrapper {
+    margin-bottom: 50px;
+}
+
+.available-products,
+.random-products,
+.latest-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.product-page-wrapper {
+    width: 20%;
+    padding: 20px 10px;
+}
+
+.product-wrapper .product {
+    min-height: 300px;
+    background-color: white;
+    border-radius: 30px;
+    outline: 15px solid white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-content: baseline; */
+}
+
+.latest-products .product {
+    max-width: 240px;
+    min-height: 300px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-content: baseline; */
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+.product>img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product:hover>img {
+    filter: drop-shadow(0 2px 6px rgb(82, 3, 3));
+    transform: scale(1.05);
+}
+
+.product a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+h5 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.product .product-info,
+.product .product-button {
+    padding: 0 15px 15px;
+}
+
+.product .product-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.product .product-button a {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.product .product-button a:first-child {
+    background-color: green;
+}
+
+.product .product-button a:last-child {
+    background-color: darkorange;
+}
+
+.product .product-button a:hover {
+    background-color: black;
+    color: darkorange;
+    font-weight: bolder;
+}
+
+
+
+
+
+.main-card {
+    height: 350px !important;
+    width: 300px !important;
+    margin: 60px 0 60px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: ;
+}
+
+.main-card .hot-sale {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+}
+
+.main-card .card-body {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.card-body .nameAndPrice {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body .nameAndPrice h3 {
+    color: darkorange;
+}
+
+.main-card .card-body .card-price {
+    font-size: 20px;
+}
+
+.main-card .card-body p {
+    margin: 10px;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.main-card:hover {
+    cursor: pointer;
+    transform: scale(1.2) !important;
+}
+
+.main-card:hover img {
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.main-card:hover .card-body {
+    background: black;
+}
