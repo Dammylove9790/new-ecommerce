@@ -260,16 +260,14 @@ body {
 }
 
 
-.page-content {
+.container-fluid.page-content {
     max-width: 80rem;
-    border: 2px solid red;
 }
 
 .container-title {
     height: 100px;
     width: 100%;
     margin: 40px 0 0;
-    border: 2px solid;
 }
 
 .container-title.available-products-title,
