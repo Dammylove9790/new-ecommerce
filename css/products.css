@@ -120,8 +120,12 @@ ul {
     .products-category-filter, 
     .all-product-wrapper {
         width: 100%;
-        padding: 10px 30px 30px ;
+        padding: 10px 0 30px ;
     }
+
+    .product-page-wrapper {
+        padding: 10px;
+    }    
     
     .products-category-filter p {
     /* font-size: 15px;
