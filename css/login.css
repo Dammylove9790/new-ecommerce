@@ -28,6 +28,7 @@ a {
     margin: 0 auto;
     background: rgba(25, 24, 24, 0.5);
     padding: 3.5vw;
+    border-radius: 15px;
 }
 
 p.legend {
@@ -115,9 +116,9 @@ p.legend span {
 /*--responsive--*/
 
 @media(max-width:1920px) {
-    h1 {
+    /* h1 {
         font-size: 4vw;
-    }
+    } */
 }
 
 @media(max-width:1024px) {

@@ -24,8 +24,8 @@ ul {
     padding: 0;
 }
  
-.products-category-filter ul li {
-}
+/* .products-category-filter ul li {
+} */
 
 .products-category-filter ul li a {
     text-decoration: none;
@@ -69,7 +69,7 @@ ul {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    font-size: ;
+
     /* align-content: baseline; */
 }
 
@@ -127,10 +127,10 @@ ul {
         padding: 10px;
     }    
     
-    .products-category-filter p {
-    /* font-size: 15px;
-    font-weight: 500; */
-    }
+    /* .products-category-filter p {
+    font-size: 15px;
+    font-weight: 500;
+    } */
 
     .container-title.all-products-title {
         color: #0e1b4d;
