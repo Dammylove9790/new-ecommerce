@@ -270,7 +270,7 @@ body {
 }
 
 
-.container-fluid.page-content {
+.page-content {
     max-width: 80rem;
 }
 
@@ -303,7 +303,6 @@ body {
 .random-products .product-wrapper {
     margin: 0 auto;
 }
-
 
 .latest-product-wrapper {
     width: calc(100% / 6);
