@@ -44,9 +44,10 @@ p.legend span {
     margin-left: 10px;
 }
 
-.input-container {
-    display: ;
-}
+/* .input-container {
+    display: flex;
+} */
+
 .input {
     position: relative;
     margin: 20px auto;
