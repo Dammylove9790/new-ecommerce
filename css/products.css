@@ -116,8 +116,11 @@ ul {
         display: block;
     }
     
-    
-    .products-category-filter, 
+    .products-category-filter {
+        width: 100%;
+        padding: 10px 30px 30px ;
+    }
+
     .all-product-wrapper {
         width: 100%;
         padding: 10px 0 30px ;
