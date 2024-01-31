@@ -5,11 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
 
 <!-- Webpages css -->
 <link rel="stylesheet" href="css/index.css">
@@ -24,6 +27,9 @@
   <title>Ecommerce</title>
 </head>
 <body>
+
+
+
 
 <!-- Start of main navigation Bar  -->
   <div id="main_nav">
@@ -42,7 +48,7 @@
               <a class="nav-link" href="cart.html"><i class="fas fa-cart-arrow-down me-1"></i>Shopping Cart</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="auction.html"><i class="fa-solid fa-truck-fast me-1"></i>Auction</a>
+              <a class="nav-link" href="products.html"><i class="fa-solid fa-basket-shopping me-1 "></i>Products</a>
             </li>
 
           </ul>
@@ -75,20 +81,38 @@
   </div>
 <!-- End of main navigation bar -->
 
+<div id="message_box_div" class="mt-3"></div>
 
-  <div id="message_box_div" class="mt-3"></div>
 
 
-<div class="container-fluid login-container">
-  <div class="login-form-wrapper">
-    <form action="">
-      <p>sign in</p>
-      <input type="text" placeholder="Email">
-      <input type="text" placeholder="Password">
-      <button type="submit">Sign in</button>
 
-      <small>Forgot Password? Click here</small>
-    </form>
+<div class="login-container">
+
+	<!-- content -->
+	<div class="sub-main-w3">
+		<form class="login" action="#" method="post">
+			<p class="legend">Login Here<span class="fa-solid fa-user"></span></p>
+			<div class="input">
+				<input type="email" placeholder="Email" name="email" required />
+				<span class="fa fa-envelope"></span>
+			</div>
+			<div class="input">
+				<input type="password" placeholder="Password" name="password" required />
+				<span class="fa fa-unlock"></span>
+			</div>
+			<button type="submit" class="login-btn">
+				Login <span class="fa fa-sign-in"></span>
+			</button>
+      <p class="password-reset">
+        <a href="">
+          Forgot your password? 
+          <span> Click here </span>  
+        </a>
+      </p>
+		</form>
+	</div>
+	<!-- //content -->
+  
   </div>
 </div>
 
@@ -96,8 +120,8 @@
 
 
 
-
-  <section id="footer_section" class="footer_section bg-dark text-white mt-5 py-2">
+  <!-- <i class="fa-brands fa-whatsapp whatsapp-icon animate__animated"></i> -->
+  <section id="footer-section" class="footer_section bg-dark text-white py-2 w-100 ">
     <div class="container my-5">
       <h1 class="text-center"> Grab the latest deal by shopping with us. </h1>
       <p class="">Ukay is your number one online shopping site in Nigeria. We are an online store where you can purchase all your electronics, as well as books, home appliances, kiddies items, fashion items for men, women, and children; cool gadgets, computers, groceries, automobile parts, and more on the go. What more? You can have them delivered directly to you. Shop online with great ease as you pay with UkayPay which guarantees you the safest online shopping payment method, allowing you to make stress free payments. Whatever it is you wish to Whatsapp Buy, we offers you all and lots more at prices which you can trust.</p>
@@ -146,8 +170,13 @@
   </section>
 
 
+
+
+
+
   <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
