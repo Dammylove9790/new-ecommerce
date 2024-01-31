@@ -3,10 +3,10 @@ a {
     text-decoration: none;
 }
 
-.login-container {
-    height: 90vh;
+.signup-container {
+    min-height: 90vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../image/eshopbanner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../image/shoppingnew.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,6 +44,9 @@ p.legend span {
     margin-left: 10px;
 }
 
+.input-container {
+    display: ;
+}
 .input {
     position: relative;
     margin: 20px auto;
@@ -73,7 +76,7 @@ p.legend span {
     letter-spacing: 1px;
 }
 
-.login-btn {
+.signup-btn {
     height: 45px;
     display: block;
     margin: 2em auto;
@@ -88,7 +91,7 @@ p.legend span {
     transition: 0.2s ease-out;
 }
 
-.login-btn:hover {
+.signup-btn:hover {
     background: darkorange;
     color: #fff;
     font-weight: bold;
@@ -168,7 +171,7 @@ p.legend span {
         font-size: 12px;
     }
     
-    .login-btn {
+    .signup-btn {
         height: 45px;
         margin: 2em auto;
         font-size: 16px;
@@ -218,7 +221,7 @@ p.legend span {
         font-size: 12px;
     }
     
-    .login-btn {
+    .signup-btn {
         height: 40px;
         margin: 1.5em auto;
         font-size: 15px;
