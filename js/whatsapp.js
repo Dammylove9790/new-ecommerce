@@ -4,23 +4,33 @@
 
 
 function shareOnWhatsApp(productdetails) {
+    console.log(window.location.href)
 
-    console.log(productdetails.parentNode.previousElementSibling.firstElementChild.innerHTML)
+    console.log(productdetails.parentNode.previousElementSibling.previousElementSibling.src)
 
-    console.log(productdetails.parentNode.previousElementSibling.firstElementChild.nextElementSibling.innerHTML)
+    // console.log(productdetails.parentNode.previousElementSibling.firstElementChild.innerHTML)
 
-    console.log(productdetails.parentNode.previousElementSibling.lastElementChild.firstElementChild.innerHTML)
-    //   // Create the WhatsApp message
-//   var message = encodeURIComponent(
-//     `Check out this product:\n\nName: ${productdetails.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML}\nPrice: ${productdetails.previousElementSibling.previousElementSibling.innerHTML}\nDescription: ${productdetails.previousElementSibling.innerHTML}`
-//   );
+    // console.log(productdetails.parentNode.previousElementSibling.firstElementChild.nextElementSibling.innerHTML)
 
-//   // Specify the phone number
-//   var phoneNumber = "+2347057878050";
+    // console.log(productdetails.parentNode.previousElementSibling.lastElementChild.firstElementChild.innerHTML)
+  // Product link
+//   var productLink = document.getElementById("productLink").href;
+  // Create the WhatsApp message
+  var message = encodeURIComponent(
+    `I'm interested in buying this products.\nCheck out this product:
+    
+    ${productdetails.parentNode.previousElementSibling.previousElementSibling.src}
+    
+    Name: ${productdetails.parentNode.previousElementSibling.firstElementChild.innerHTML}Price: ${productdetails.parentNode.previousElementSibling.lastElementChild.firstElementChild.innerHTML}
+    Description: ${''}`
+  );
 
-//   // Create the WhatsApp share link
-//   var whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
+  // Specify the phone number
+  var phoneNumber = "+2347057878050";
 
-//   // Open WhatsApp in a new window with the pre-filled message
-//   window.open(whatsappLink, '_blank');
+  // Create the WhatsApp share link
+  var whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
+
+  // Open WhatsApp in a new window with the pre-filled message
+  window.open(whatsappLink, '_blank');
 }
