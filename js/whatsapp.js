@@ -17,7 +17,7 @@ function shareOnWhatsApp(productdetails) {
 //   var productLink = document.getElementById("productLink").href;
   // Create the WhatsApp message
   var message = encodeURIComponent(
-    `I'm interested in buying this products.\nCheck out this product:\n${productdetails.parentNode.previousElementSibling.previousElementSibling.src}\n\nName: ${productdetails.parentNode.previousElementSibling.firstElementChild.innerHTML}\nPrice: ${productdetails.parentNode.previousElementSibling.lastElementChild.firstElementChild.innerHTML}\nDescription: ${''}`
+    `I'm interested in buying this products.\nCheck out this product:\n\nName: ${productdetails.parentNode.previousElementSibling.firstElementChild.innerHTML}\nPrice: ${productdetails.parentNode.previousElementSibling.lastElementChild.firstElementChild.innerHTML}\nDescription: ${productdetails.parentNode.previousElementSibling.previousElementSibling.src}`
   );
 
   // Specify the phone number
