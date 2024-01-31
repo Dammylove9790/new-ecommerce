@@ -336,7 +336,7 @@ body {
 
 .product>img {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .product:hover>img {
@@ -349,17 +349,23 @@ body {
     color: currentColor;
 }
 
-h5 {
+/* .product-info p {
+    margin: 0;
+    padding: 0;
+}
+ */
+.product-name {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .product .product-info,
 .product .product-button {
-    padding: 0 15px 15px;
+    padding: 0 15px 10px;
 }
 
 .product .product-button {
@@ -369,23 +375,25 @@ h5 {
     margin-top: auto;
 }
 
-.product .product-button a {
+.product .product-button button {
     display: block;
     padding: 3px 5px;
+    border: none;
+    outline: none;
     border-radius: 5px;
     color: white;
     margin-bottom: 10px;
 }
 
-.product .product-button a:first-child {
+.product .product-button button:first-child {
     background-color: green;
 }
 
-.product .product-button a:last-child {
+.product .product-button button:last-child {
     background-color: darkorange;
 }
 
-.product .product-button a:hover {
+.product .product-button button:hover {
     background-color: black;
     color: darkorange;
     font-weight: bolder;
