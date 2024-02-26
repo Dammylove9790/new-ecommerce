@@ -33,7 +33,7 @@ body {
     z-index: 1000;
 }
 
-#header {
+.header {
     min-height: 500px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../image/eshopbanner.jpg);
     background-size: cover;
