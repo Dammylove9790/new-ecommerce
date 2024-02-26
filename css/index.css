@@ -1,14 +1,15 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     background-color: #eff0f5;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -428,6 +429,10 @@ body {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
+    #slogan {
+        line-height: 1.3em;
+    }
+
     .latest-product-wrapper {
         width: 25%;
     }
@@ -477,6 +482,10 @@ body {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+    #slogan {
+        margin-top: 60px;
+    }
+
     .latest-product-wrapper {
         width: 50%;
         padding: 20px;
@@ -510,8 +519,8 @@ body {
     }
 
     #slogan {
-        margin-top: 70px;
-        font-size: 80px;
+        margin-top: 40px;
+        font-size: 65px;
         font-weight: bold;
         /* line-height: ; */
     }
