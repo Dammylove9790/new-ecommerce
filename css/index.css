@@ -520,6 +520,7 @@ body {
 
     #slogan {
         margin-top: 60px;
+        margin-bottom: 10px;
         font-size: 65px;
         font-weight: bold;
         /* line-height: ; */
