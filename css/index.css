@@ -430,7 +430,7 @@ body {
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
     #slogan {
-        line-height: 1.3em;
+        line-height: 1.4em;
     }
 
     .latest-product-wrapper {
@@ -519,7 +519,7 @@ body {
     }
 
     #slogan {
-        margin-top: 40px;
+        margin-top: 60px;
         font-size: 65px;
         font-weight: bold;
         /* line-height: ; */
