@@ -36,18 +36,18 @@ body {
 #header {
     min-height: 500px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../image/eshopbanner.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
+    background-repeat: no-repeat;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: relative; */
 }
 
-#header>.row {
+/* #header>.row {
     width: 100%;
-}
+} */
 
 #slogan {
     font-family: 'Tangerine', serif;
